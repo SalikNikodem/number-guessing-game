@@ -8,4 +8,8 @@ def main():
     guessing(chances)
 
 if __name__ == "__main__":
-    main()
+    flag = True
+    while flag:
+        main()
+        a = input("\nDo you want to play again?(y/n): ")
+        if a != "y": flag = False
