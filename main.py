@@ -5,7 +5,7 @@ from functions import start, calculate_chances, guessing
 def main():
     difficulty = start(starting_message,difficulty_select)
     chances = calculate_chances(difficulty)
-    guessing(chances)
+    guessing(chances, difficulty)
 
 if __name__ == "__main__":
     flag = True
